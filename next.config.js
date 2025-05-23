@@ -12,8 +12,8 @@ module.exports = {
       {
         source: '/',
         destination: '/login',
-        permanent: false
-      }
+        permanent: false, // false = ใช้ redirect แบบ 302
+      },
     ];
-  }
-}
+  },
+};
